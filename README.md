@@ -61,24 +61,24 @@ Transaction Dashboard is a comprehensive web application designed to help users 
 ### Installation
 
 1. Clone the repository:
-   \`\`\`bash
+```bash
    git clone https://github.com/yourusername/transaction-dashboard.git
    cd transaction-dashboard
-   \`\`\`
+```
 
 2. Install dependencies:
-   \`\`\`bash
+```bash
    npm install
    # or
    yarn install
-   \`\`\`
+```
 
 3. Run the development server:
-   \`\`\`bash
+```bash
    npm run dev
    # or
    yarn dev
-   \`\`\`
+```
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
 
@@ -124,10 +124,9 @@ transaction-dashboard/
 │   ├── transaction-filters.tsx      # Filtering controls
 │   ├── create-transaction-form.tsx  # Form for creating transactions
 │   ├── transaction-status-badge.tsx # Status indicator
-│   └── ui/               # UI components
-│       ├── custom-card.tsx          # Card component
-│       ├── custom-tabs.tsx          # Tabs component
-│       └── custom-calendar.tsx      # Calendar component
+│   ├── custom-card.tsx          # Card component
+│   ├── custom-tabs.tsx          # Tabs component
+│   └── custom-calendar.tsx      # Calendar component
 ├── lib/                  # Utility functions and types
 │   ├── api.ts            # API functions
 │   ├── types.ts          # TypeScript types
@@ -135,7 +134,6 @@ transaction-dashboard/
 └── public/               # Static assets
 \`\`\`
 
-## Customization
 
 ### Styling
 
