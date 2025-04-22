@@ -112,7 +112,7 @@ Use the filter controls at the top of the transaction list to:
 
 ## Project Structure
 
-\`\`\`
+```
 transaction-dashboard/
 ├── app/                  # Next.js App Router
 │   ├── layout.tsx        # Root layout
@@ -132,7 +132,7 @@ transaction-dashboard/
 │   ├── types.ts          # TypeScript types
 │   └── utils.ts          # Helper functions
 └── public/               # Static assets
-\`\`\`
+```
 
 
 ### Styling
